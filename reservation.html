@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Travel Agency</title>
+    <style>
+        .first {
+            display: inline;
+            padding: 0px 115px;
+        }
+
+        .middle {
+            display: inline;
+            padding: 0px 0pxpx;
+        }
+
+        .last {
+            display: inline;
+            padding: 0px 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Bus Travel Reservation Form</h3>
+    <form action="paytm.html">
+        <label>Full Name:</label>
+        <input type="text" name="firstName" id="">
+        <input type="text" name="middleName" id="">
+        <input type="text" name="lastName" id="">
+        <br>
+        <p class="first">First Name</p>
+        <p class="middle">Middle Name</p>
+        <p class="last">Last Name</p>
+        <br>
+        <br>
+        <label>Phone No.</label>
+        <input type="tel" name="phoneNumber" id="">
+        <br><br>
+        <label>Date of Birth</label>
+        <input type="date" name="dateofBirth" id="">
+        <br><br>
+        <div>Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Others <input
+                type="radio" name="myGender"> </div>
+        <br><br>
+        <div>
+            <label for="Destination">Destination: &nbsp;</label>
+            From <select name="myDestination" id="from">
+                <option value="prj">Prayagraj</option>
+                <option value="vns">Varanasi</option>
+            </select>&nbsp;&nbsp;
+            To <select name="myDestination" id="to">
+                <option value="vns">Varanasi</option>
+                <option value="prj">Prayagraj</option>
+            </select>
+        </div>
+        <br><br>
+        <div><label>Date of Travel:</label>
+            <input type="date" name="myTravel" id="">
+        </div>
+        <br><br>
+        <div>
+            <input type="submit" value="Submit & Proceed to Pay">
+        </div>
+
+    </form>
+</body>
+
+</html>
